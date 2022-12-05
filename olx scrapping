@@ -14,7 +14,7 @@ except:
 
 #City
 city = driver.find_element_by_class_name("css-kt3c71").send_keys("Wrocław")
-cityChoice = driver.f ind_element_by_class_name("css-1veigyg").click()
+cityChoice = driver.find_element_by_class_name("css-1veigyg").click()
 
 #Rent
 findRent = driver.find_element_by_class_name('css-t0lbh8')
