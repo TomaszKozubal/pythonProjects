@@ -18,10 +18,10 @@ city = driver.find_element_by_class_name("css-kt3c71").send_keys("Wrocław")
 cityChoice = driver.f ind_element_by_class_name("css-1veigyg").click()
 
 #Rent
-#findRent = driver.find_element_by_class_name('css-t0lbh8')
-#findRent.click()
-#rent = driver.find_element_by_class_name('css-1oi36r6').click()
+findRent = driver.find_element_by_class_name('css-t0lbh8')
+findRent.click()
+rent = driver.find_element_by_class_name('css-1oi36r6').click()
 
 #Rooms
-#oneBedroom = driver.find_element_by_class_name("css-1rfy03l").click()
-#twoBedroom = driver.find_element_by_class_name("css-1ukn2f9").click()
+oneBedroom = driver.find_element_by_class_name("css-1rfy03l").click()
+twoBedroom = driver.find_element_by_class_name("css-1ukn2f9").click()
