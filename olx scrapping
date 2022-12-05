@@ -6,7 +6,7 @@ import time
 driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 driver.get("https://www.olx.pl/d/nieruchomosci/mieszkania/")
 
-time.sleep(5)
+time.sleep(1)
 try:
     accept = driver.find_element_by_id('onetrust-accept-btn-handler')
     accept.click()
@@ -15,5 +15,13 @@ except:
 
 #City
 city = driver.find_element_by_class_name("css-kt3c71").send_keys("Wrocław")
-time.sleep(5)
 cityChoice = driver.f ind_element_by_class_name("css-1veigyg").click()
+
+#Rent
+#findRent = driver.find_element_by_class_name('css-t0lbh8')
+#findRent.click()
+#rent = driver.find_element_by_class_name('css-1oi36r6').click()
+
+#Rooms
+#oneBedroom = driver.find_element_by_class_name("css-1rfy03l").click()
+#twoBedroom = driver.find_element_by_class_name("css-1ukn2f9").click()
