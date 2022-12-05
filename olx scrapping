@@ -2,7 +2,6 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium import webdriver
 import time
 
-
 driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 driver.get("https://www.olx.pl/d/nieruchomosci/mieszkania/")
 
